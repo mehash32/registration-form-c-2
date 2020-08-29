@@ -9,10 +9,11 @@ body{
 }
 .main{
     background: url(tree.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
-	background-size: cover;
-	height: 200vh;
+  background-size: cover;
+  width: 100%;
+	
 }
 .menu-bar h2{
     color: azure;
@@ -21,6 +22,9 @@ body{
     
 }
 
+.menu-bar{
+  margin-bottom: 20px;
+}
 a{
 	text-decoration: none;
 }
@@ -55,22 +59,23 @@ a{
     color: pink;
 }
 .contact{
-	width: 60%;
-	margin:  auto;
-    padding: 100px 0;
-    border-radius: 10px;
+	width: 400px;
+	margin: 0 auto;
+    padding: 0 0;
+    
 }
 .form-body{
     margin-top: 20;
 	background: rgba(0,0,0,0.4);
-	margin: 0 100px;
+	
 	text-align: center;
     padding: 50px 0;
     border: 3px solid rgb(70, 21, 102);
     border-radius: 70px 0 70px 0;
+    
 }
 form{
-    padding: 20px 200px;
+    width: 192px;
      
 }
 .form-body input{
